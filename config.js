@@ -16,10 +16,10 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Toxic1239/RIASGREMORYBOT";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c21ae479aab857b4f8006.jpg";
-global.devs = "2348086541281";
-global.sudo = process.env.SUDO || "2348086541281";
-global.owner = process.env.OWNER_NUMBER || "2348086541281";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.pinimg.com/564x/13/38/c1/1338c164f8c315b31ad715f655fb2f9b.jpg";
+global.devs = "237671059500";
+global.sudo = process.env.SUDO || "237671059500";
+global.owner = process.env.OWNER_NUMBER || "237671059500";
 global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -27,12 +27,12 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/84a935261759d92084744.mp4";
-global.waPresence = process.env.WAPRESENCE || "recording";
+global.userImages = process.env.USER_IMAGES || "https://i.pinimg.com/564x/13/38/c1/1338c164f8c315b31ad715f655fb2f9b.jpg";
+global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "false";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -42,17 +42,17 @@ global.scan = "https://riasgremorybot-xcqv.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ0YvMlV1d2ZPdWxMbnBpU3ZrR3IyTmdMQitXOUhLMmNFajRSVVpJWnMzZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaVI1S09VcEFNNERaQld5WnJrNDZwclR0M0ZtdGt2YlRmL0QrMGVxTGlRUT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBR05WeVcvYUNVYlZhOStQNXo2WXZubnAzRjB4VzhXaG0rRnlDb2h4Um1NPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxRk56WEdTZ2hlTDJDUGxDOW1PWDdKcXk2dXU4UDFzL0QxS1Fsa0t3RndJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1GNXhLeVBBMVFCd0hmdlhpR2RjaVllNFZGc05rN3NqTHArZ2RzREZNazQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkRvZHpybFY1SVBzZkxQcEFwWkdOc1hxVm4rcTZTMFdHTTBydFdVL2wreWc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaUJ6dFBaUExGOUFJYyt1S3p3aVNqKy9LTi91emJ6Z2FNSnM4aVp3ZERsND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidHN2d21nOWFvUjdLVmdoNnFEbXpMN3Q3TzB4a0oxRVlyYUtrUmRHTXN5VT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlV0b08wWVFsbCswM3NqcjNxQnVBMG0yaXJIZlJYQWdPd0FxbVZxWEdoWTNBa3VUNDNrWmhhTnRPQ0MxMlFYbVprbUh2Tkk0T0xvbm9IZG5tSS9SMGlRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6OTIsImFkdlNlY3JldEtleSI6ImtSRVAvR3ZibEVPSURIamV2OVQyYXhRc0FNeXpTVkt0WS9zV1hiQjNhWGM9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlFwd3hrWHVTUjFTV0NMSUc2Y0MtcmciLCJwaG9uZUlkIjoiMmVkM2MwM2EtM2QxNi00YjZkLThlN2QtODZlODg0ZjgyYmFhIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImU3K2ptQmZtZmVYQVhKalZ3MXBxTXhVT3dMWT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ6RHF0cDE3L09uUUJzbWx1VGUvakJWanNUVXc9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiU0g1VEJLTFEiLCJtZSI6eyJpZCI6IjIzNzY3MTA1OTUwMDo2OUBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSXVTdGZvRkVJM1RnYllHR0FVZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiOG9aS2sydmg1Z2FBOFJZbS9QL1NaOUxNdEUzSVNja0pReEhNMUFreDhTTT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiQ0JJcUpXNE9BUnNXUEVydm9YS3NYaVcwVmUxakkwSEFMVDBzWnMyeURLKzFrc3JVV1pHUGw2RzBXb0N5bW9vSkxobjZtTHI4VVVtQTN6T1VBVE5XQlE9PSIsImRldmljZVNpZ25hdHVyZSI6IklHbGFFYi9rTnBpcnZjUHFFeVB4RHVDWjFqdlJGOHVuNUQzK2o0azFNVElkTllzV0kxVkh6R25QaTVWYXJNeHlOZy9EZTdNZStoYnBMbytZeUVQWGhnPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM3NjcxMDU5NTAwOjY5QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmZLR1NwTnI0ZVlHZ1BFV0p2ei8wbWZTekxSTnlFbkpDVU1Sek5RSk1mRWoifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjM4ODU5NzksIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSkxnIn0="
 module.exports = {
-  menu: process.env.MENU || "1",
+  menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.3.1",
-  caption: process.env.CAPTION || "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗧𝗢𝗫𝗫𝗜𝗖 𝗕𝗢𝗬",
-  author: process.env.PACK_AUTHER || "ᴛᴏxxɪᴄ ᴍᴅ",
-  packname: process.env.PACK_NAME || "𝗥𝗜𝗔𝗦 𝗠𝗗",
-  botname: process.env.BOT_NAME || "𝗥𝗜𝗔𝗦 𝗚𝗥𝗘𝗠𝗢𝗥𝗬",
-  ownername: process.env.OWNER_NAME || "ᴛᴏxxɪᴄ",
+  caption: process.env.CAPTION || "AK D VIOLE",
+  author: process.env.PACK_AUTHER || "AK D VIOLE",
+  packname: process.env.PACK_NAME || "VIOLE",
+  botname: process.env.BOT_NAME || "VIOLE",
+  ownername: process.env.OWNER_NAME || "AK D VIOLE",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
